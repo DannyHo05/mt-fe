@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+  .text-link{
+    color:theme('colors.blue.500')
+  }
+  .text-link:hover{
+    opacity:0.7;
+    color:theme('colors.blue.500');
+  }
+}
+
